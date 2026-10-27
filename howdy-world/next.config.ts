@@ -15,9 +15,7 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  output: 'export',  // Add output setting directly within nextConfig
 };
 
 export default nextConfig;
-module.exports = {
-  output: 'export'
-}
