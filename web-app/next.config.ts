@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
     },
   },
   output: 'export',  // Add output setting directly within nextConfig
+  basePath: "/nextjs-github-pages",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
